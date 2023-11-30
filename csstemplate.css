@@ -59,12 +59,8 @@ td {
 
 
 #menu {
-  color: white;
   text-align: center;
-  font-family: "Monaco";
   background-color: #ffb699;
-  font-size: 20px;
-  padding: 15px;
 }
 
 a:link {
@@ -99,6 +95,37 @@ a:visited {
 }
 
 .topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.homepagenav {
+  background-color: #756086;
+  overflow: hidden;
+  top: 0;
+  width: 30%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.homepagenav a {
+  color: #f2f2f2;
+  font-family: "Monaco";
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepagenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.homepagenav a.active {
   background-color: black;
   color: white;
 }
